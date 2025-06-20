@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsForms</MyType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6520DB30-E042-469B-A867-F1782B325C97}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>LeggiXme</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>LeggiXme.My.MyApplication</StartupObject>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>0</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>GS</AssemblyCompanyName>
+    <ApplicationIcon>computer.ico</ApplicationIcon>
+    <RootNamespace>LeggiXme</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <ManifestCertificateThumbprint>F947CF656B6449D2A929432ACA6CD844ACF2D535</ManifestCertificateThumbprint>
+    <ManifestKeyFile>LeggiXme_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>D:\Speech\LxM\LeggiXme\installa\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>LeggiXme.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>LeggiXme.xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.0.4.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Speech, Version=11.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="LeggiXme.RichTextBoxPrintCtrl" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Form\frmDisegna.designer.vb">
+      <DependentUpon>frmDisegna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmDisegna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moduli\modMenuVoci.vb" />
+    <Compile Include="moduli\modWinH.vb" />
+    <Compile Include="Form\frmMessaggioLens.Designer.vb">
+      <DependentUpon>frmMessaggioLens.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMessaggioLens.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moduli\modDocx.vb" />
+    <Compile Include="moduli\modFont.vb" />
+    <Compile Include="moduli\modZoom.vb" />
+    <Compile Include="Form\frmCmap.designer.vb">
+      <DependentUpon>frmCmap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCmap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMessaggioDetta.designer.vb">
+      <DependentUpon>frmMessaggioDetta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMessaggioDetta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moduli\modGetProgram.vb" />
+    <Compile Include="Form\frmDizio.Designer.vb">
+      <DependentUpon>frmDizio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmDizio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmAboutBox.designer.vb">
+      <DependentUpon>frmAboutBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmAboutBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmINT.Designer.vb">
+      <DependentUpon>frmINT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmINT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMMaple.designer.vb">
+      <DependentUpon>frmMMaple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMMaple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmImmagini.designer.vb">
+      <DependentUpon>frmImmagini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmImmagini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMessaggioTasti.Designer.vb">
+      <DependentUpon>frmMessaggioTasti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMessaggioTasti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmCalcolatrice.designer.vb">
+      <DependentUpon>frmCalcolatrice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCalcolatrice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Schermo2.designer.vb">
+      <DependentUpon>Schermo2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Schermo2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moduli\modApiLeggiXme.vb" />
+    <Compile Include="moduli\modDiz.vb" />
+    <Compile Include="moduli\modSinonimi.vb" />
+    <Compile Include="moduli\modVisualizza.vb" />
+    <Compile Include="Form\frmAPP.designer.vb">
+      <DependentUpon>frmAPP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmAPP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmCalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmLeggiConMe.Designer.vb">
+      <DependentUpon>frmLeggiConMe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmLeggiConMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmLettore.Designer.vb">
+      <DependentUpon>frmLettore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmLettore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmPDF.designer.vb">
+      <DependentUpon>frmPDF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmPDF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmSinonimi.Designer.vb">
+      <DependentUpon>frmSinonimi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmSinonimi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmTRAD.designer.vb">
+      <DependentUpon>frmTRAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmTRAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moduli\modGestisciAudio.vb" />
+    <Compile Include="moduli\modGestisciImmagini.vb" />
+    <Compile Include="moduli\modProcessor.vb" />
+    <Compile Include="moduli\modProgramma.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\clsSottolinea.vb" />
+    <Compile Include="My Project\ColorListBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\ComboIcon.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\RichTextBoxPrintCtrl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\ToolStripCheckBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="moduli\modPdfManipulation2.vb" />
+    <Compile Include="Form\Schermo.designer.vb">
+      <DependentUpon>Schermo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Schermo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\SplashScreen1.designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="moduli\modVoce_SP11.vb" />
+    <Compile Include="Form\Schermo3.designer.vb">
+      <DependentUpon>Schermo3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Schermo3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="moduli\modTranslator.vb" />
+    <EmbeddedResource Include="Form\frmAboutBox.resx">
+      <DependentUpon>frmAboutBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmAPP.resx">
+      <DependentUpon>frmAPP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCalc.resx">
+      <DependentUpon>frmCalc.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCmap.resx">
+      <DependentUpon>frmCmap.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmDizio.resX">
+      <DependentUpon>frmDizio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmImmagini.resx">
+      <DependentUpon>frmImmagini.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmINT.resx">
+      <DependentUpon>frmINT.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmLeggiConMe.resx">
+      <DependentUpon>frmLeggiConMe.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmLettore.resx">
+      <DependentUpon>frmLettore.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMessaggioLens.resx">
+      <DependentUpon>frmMessaggioLens.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmPDF.resx">
+      <DependentUpon>frmPDF.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmSinonimi.resX">
+      <DependentUpon>frmSinonimi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmTRAD.resx">
+      <DependentUpon>frmTRAD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMessaggioDetta.resx">
+      <DependentUpon>frmMessaggioDetta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMessaggioTasti.resx">
+      <DependentUpon>frmMessaggioTasti.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCalcolatrice.resx">
+      <DependentUpon>frmCalcolatrice.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Schermo2.resx">
+      <DependentUpon>Schermo2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMMaple.resx">
+      <DependentUpon>frmMMaple.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmDisegna.resx">
+      <DependentUpon>frmDisegna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Schermo.resx">
+      <DependentUpon>Schermo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Schermo3.resx">
+      <DependentUpon>Schermo3.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_stop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all-cn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all-dx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\all-sx.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\annaffiatoio.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\annulla.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anteprima.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appunti_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apri_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARW09DN.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AUDIO.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanCina.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandCina.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandFra.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandGerm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandGre.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandiere_puls.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BandIta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandLat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandSpa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bandUk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BandUSA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanFra.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanGer.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banGerm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanGre.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanIta.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanLat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanSpa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanUk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BanUSA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calcola.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carattere.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carattere_predefinito.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checked.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chiudi.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copia2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correttore.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstraiPDF_r.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evidenzia.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gomma.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gr.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_tr.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\immagine.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leggi_giallo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ListBullets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meno.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MODIFICA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuovo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\occhio_.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paesaggio.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausa_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PENNA_ROSSA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Piu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PunDom.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PunDom_R.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo-icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\riassunto_r.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RULERS.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\S.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salva.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfondo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfondo_gr.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stampa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suono.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suono_v.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taglia_32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tavolozza.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thesaurus32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TROVA.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo-icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VOCE_PRINCIPALE.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom-.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom+.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoomvia.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausa_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pausa1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+    <None Include="Resources\Brush-64.png" />
+    <None Include="Resources\Rectangle-256.png" />
+    <None Include="Resources\Draw-Ellipse-32.png" />
+    <None Include="Resources\Pencil_256x256.png" />
+    <None Include="Resources\lens_disattivato.jpg" />
+    <None Include="Resources\lens.jpg" />
+    <None Include="Resources\scambia.gif" />
+    <None Include="app.config" />
+    <None Include="bin\clic.wav" />
+    <None Include="bin\splash.wav" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="bin\bong.wav" />
+    <Content Include="computer.ico" />
+    <None Include="Resources\AggiungiTesto.gif" />
+    <None Include="Resources\orig.gif" />
+    <None Include="Resources\dest.gif" />
+    <None Include="Resources\immagine_PIU.gif" />
+    <None Include="Resources\evidenzia_bianco.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
