@@ -1,0 +1,634 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LeggiXme
+</name>
+</assembly>
+<members>
+<member name="M:LeggiXme.modDocx.FindDocumentXmlLocation">
+	<summary>
+ Gets location of the "document.xml" zip entry.
+ </summary>
+	<returns>Location of the "document.xml".</returns>
+</member><member name="M:LeggiXme.modDocx.ReadDocumentXml">
+	<summary>
+ Reads "document.xml" zip entry.
+ </summary>
+	<returns>Text containing in the document.</returns>
+</member><member name="M:LeggiXme.modDocx.ReadNode(System.Xml.XmlNode)">
+	<summary>
+ Reads content of the node and its nested childs.
+ </summary>
+	<param name="node">XmlNode.</param>
+	<returns>Text containing in the node.</returns>
+</member><member name="P:LeggiXme.My.Resources.Resources.ResourceManager">
+	<summary>
+  Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Culture">
+	<summary>
+  Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte le
+  ricerche di risorse eseguite utilizzando questa classe di risorse fortemente tipizzata.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources._stop">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources._stop1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.AggiungiTesto">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.all_cn">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.all_dx">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.all_sx">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.annaffiatoio">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.annulla">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.annulla1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Anteprima">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.appunti_2">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Apri_">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.ARW09DN">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.AUDIO">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanCina">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanCina1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandCina">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandCina1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandFra">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandFra1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandGer">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandGer1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandGerm">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandGerm1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandGre">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandGre1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandiere_puls">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandiere_puls1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BandIta">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BandIta1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandLat">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandLat1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandSpa">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandSpa1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandUk">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bandUk1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BandUSA">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BandUSA1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.banFra">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanFra1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanGer">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanGer1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.banGre">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanGre1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanIta">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanIta1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.banLat">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanLat1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.banSpa">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanSpa1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanUk">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanUk1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanUSA">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.BanUSA1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bg">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.bong">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.C">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.calcola">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.carattere">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.carattere_predefinito">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Check">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Checked">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.chiudi">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.clic">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Copia2">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.correttore">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.EstraiPDF_r">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.evidenzia">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.evidenzia_bianco">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.FLGFRAN1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.FLGGERM1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.FLGSPAIN1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.FLGUK1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.FLITALIA">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.gomma">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.gr">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.home">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.home_tr">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.immagine">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.immagine_PIU">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.info">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Leggi_giallo">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.lens">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.lens_disattivato">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.ListBullets">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.meno">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.MODIFICA">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Nuovo">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.occhio_">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.P">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.paesaggio">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Paste">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.pausa">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.pausa_1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.pausa_2">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.pausa1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.pdf">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.PENNA_ROSSA">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Piu">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.play">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.PunDom">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.PunDom_R">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.PunDom_R1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.PunDom1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.redo_icon">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.relaz">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.riassunto_r">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.RULERS">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.S">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.salva">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.scambia">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.sfondo">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.sfondo_gr">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.splash">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.stampa">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.suono">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.suono_v">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Taglia_32">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.tavolozza">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.Thesaurus32">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.TROVA">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.undo_icon">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.VOCE_PRINCIPALE">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.zoom_">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.zoom_1">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:LeggiXme.My.Resources.Resources.zoomvia">
+	<summary>
+  Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="T:LeggiXme.My.Resources.Resources">
+	<summary>
+  Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+</summary>
+</member><member name="M:LeggiXme.modPdfManipulation2.RemoveRestrictions(System.String,System.Boolean)">
+	<summary>
+ Remove all resttrictions from a pdf file
+ </summary>
+	<param name="restrictedPdf">The full path to the restricted pdf file</param>
+	<param name="saveABackup">If True, the original restricted pdf will be saved as [filename]_BAK.pdf. Else, it will be overwritten.</param>
+	<returns>True if the operation succeeded. False otherwise</returns>
+	<remarks></remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.ExtractPdfPage(System.String,System.Int32,System.String)">
+	<summary>
+ Extract a single page from source pdf to a new pdf
+ </summary>
+	<param name="sourcePdf">the full path to source pdf file</param>
+	<param name="pageNumberToExtract">the page number to extract</param>
+	<param name="outPdf">the full path for the output pdf</param>
+	<remarks></remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.ExtractPdfPage(System.String,System.Int32[],System.String)">
+	<summary>
+ Extract selected pages from a source pdf to a new pdf
+ </summary>
+	<param name="sourcePdf">the full path to source pdf to a new pdf</param>
+	<param name="pageNumbersToExtract">the page numbers to extract (i.e {1, 3, 5, 6})</param>
+	<param name="outPdf">The full path for the output pdf</param>
+	<remarks>The output pdf will contains the extracted pages in the order of the page numbers listed
+ in pageNumbersToExtract parameter.</remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.ExtractPdfPages(System.String,System.Int32[],System.String)">
+	<summary>
+ Extract pages from an existing pdf file to create a new pdf with bookmarks preserved
+ </summary>
+	<param name="sourcePdf">full path to sthe source pdf</param>
+	<param name="pageNumbersToExtract">an integer array containing the page number of the pages to be extracted</param>
+	<param name="outPdf">the full path to the output pdf</param>
+	<remarks></remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.SplitPdfByParts(System.String,System.Int32,System.String)">
+	<summary>
+ Split a single pdf file into multiple pdfs with equal number of pages.
+ </summary>
+	<param name="sourcePdf">the full path to the source pdf</param>
+	<param name="parts">the number of splitted pdfs to split to</param>
+	<param name="baseNameOutPdf">the base file name (full path) for splitted pdfs.
+ The actual output pdf file names will be serialized. </param>
+	<remarks>The last splitted pdf may not have
+ the same number of pages as the rest, depending on the combination of number of pages in the source pdf 
+ and the number of parts to be splitted. For example, if the original pdf has 9 pages and it is to be 
+ splitted into 5 parts, the last splitted pdf will have only 1 page while all others have 2 pages.</remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.SplitPdfByPages(System.String,System.Int32,System.String)">
+	<summary>
+ Split source pdf into multiple pdfs with specifc number of pages
+ </summary>
+	<param name="sourcePdf">the full path to source pdf</param>
+	<param name="numOfPages">the number of pages each splitted pdf should contain</param>
+	<param name="baseNameOutPdf">the base file name (full path) for splitted pdfs.
+ The actual output pdf file names will be serialized. </param>
+	<remarks>The last splitted pdf may not have
+ the same number of pages as the rest, depending on the combination of number of pages in the source pdf 
+ and the number of target pages in each splitted pdf. For example, if the original pdf has 9 pages and it is to be 
+ splitted with 2 pages for each pdf, the last splitted pdf will have only 1 page while all others have 2 pages.</remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.ConvertToIntegerArray(System.String)">
+	<summary>
+ Helper function to convert a csv integer string to an integer array
+ </summary>
+	<param name="csvNumbers">the integer string in csv format (ex: "1, 5, 7, 4")</param>
+	<returns>Integer array converted from the csv string (ex: {1, 5, 7, 4}</returns>
+	<remarks>No error checking/handling. If the input string contains non-numeric values
+ the function will crash. It's up to you to handle this error.</remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.MergePdfFiles(System.String[],System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Merge multiple pdf files into a single pdf
+ </summary>
+	<param name="pdfFiles">string array containing full paths to the pdf files to be merged</param>
+	<param name="outputPath">full path to the merged output pdf</param>
+	<param name="authorName">Author's name.</param>
+	<param name="creatorName">Creator's name</param>
+	<param name="subject">Subject field</param>
+	<param name="title">Title field</param>
+	<param name="keywords">keywords field</param>
+	<returns>True if the merging is successful, False otherwise.</returns>
+	<remarks>All optional paramters are used for the output pdf metadata.
+ You can see a pdf metada by going to the PDF tab of the file's Property window.</remarks>
+</member><member name="M:LeggiXme.modPdfManipulation2.AddImageToPage(System.String,System.String,System.String,System.Drawing.Point,System.Drawing.Size,System.Int32[])">
+	<summary>
+ Add an image to pdf pages
+ </summary>
+	<param name="sourcePdf">The full path to the source pdf file</param>
+	<param name="outputPdf">The full path to the image file to use</param>
+	<param name="imgPath">The full path to be used for the output pdf file</param>
+	<param name="imgLocation">The lower left corner location where the image will be placed on a pdf page</param>
+	<param name="imgSize">The size of the image on pdf page</param>
+	<param name="pages">The pages where the image should be added. Default option is Nothing which will add the image to all pages on the pdf file</param>
+	<remarks>Units for location and size are in points. 1 inch = 72 points</remarks>
+</member>
+</members>
+</doc>
