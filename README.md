@@ -15,6 +15,8 @@ LeggiXme collabora molto bene con il software MindMaple per creare mappe. La dit
 
 https://share.mail.libero.it/ajax/share/080c25180c20ea5686a2a64c20ea4ee793e2da2fc5c99062/1/8/MzM/MzMvMjY
 
+LeggiXme è stato realizzato con Microsoft Visual Studio 2012.
+
 --------------------------------------------------------------------------------------------------------------------------------------
 
 In this repository you will find all the files needed to create the LeggiXme program. However, to function fully, the program needs other files on the computer, such as images and dictionaries, and other programs installed or present.
@@ -34,3 +36,4 @@ LeggiXme collaborates very well with the MindMaple software to create maps. The 
 
 https://share.mail.libero.it/ajax/share/080c25180c20ea5686a2a64c20ea4ee793e2da2fc5c99062/1/8/MzM/MzMvMjY
 
+LeggiXme was created with Microsoft Visual Studio 2012.
